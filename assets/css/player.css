@@ -4,3 +4,24 @@
   height: 100px;
   background-color: rgb(40,40,40);
 }
+.info-box,
+.player-box,
+.volume-box{
+  flex-basis: calc(100% / 3);
+}
+.info-box{
+  margin: 20px 0;
+}
+.info-box img{
+  height: 100%;
+  margin-right: 15px;
+}
+.info-box span{
+  margin-bottom: 0;
+}
+.info-box i{
+  color: #a0a0a0;
+}
+.info-box .fa-heart{
+  margin: 0 10px 0 40px;
+}
