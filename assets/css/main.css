@@ -1,0 +1,7 @@
+/* main */
+.main{
+  height: 100%;
+  width: calc(100% - 180px);
+  background-color: rgb(20,25,34);
+  display: inline-block;
+}
