@@ -110,6 +110,12 @@
   font-size: 50px;
   z-index: 10;
 }
-.card-top img:hover .fa-circle-play{
+.card-top:hover .fa-circle-play{
   display: inline;
+}
+.card-top:hover img{
+  opacity: 0.4;
+}
+.card-top:hover{
+  cursor: pointer;
 }
