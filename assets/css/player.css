@@ -17,26 +17,45 @@
   margin-right: 15px;
   margin-left: 10px;
 }
-.info-box span{
+.info-box a{
   margin-bottom: 0;
 }
 .info-box i{
-  color: #a0a0a0;
+  color: white;
+  opacity: 0.6;
+}
+.info-box .subtitle{
+  color: white;
+  opacity: 0.6;
+}
+.info-box .subtitle:hover{
+  opacity: 1;
+  text-decoration: underline;
 }
 .info-box .fa-heart{
   margin: 0 10px 0 40px;
+}
+.info-box i:hover{
+  opacity: 1;
 }
 .footer-sb{
   margin-bottom: 10px;
 }
 .player-box i{
   color: white;
+  opacity: 0.6;
   font-size: 20px;
   margin: 20px 20px;
 }
 .player-box i:nth-child(3){
   font-size: 30px;
   margin-top: 17px;
+}
+.player-box i:nth-child(3):hover{
+  transform: scale(1.2);
+}
+.player-box i:hover{
+  opacity: 1;
 }
 .song-bar{
   color: white;
@@ -48,25 +67,38 @@
 }
 .bar-white{
   width: 10%;
-  height: 4px;
+  height: 6px;
   border-radius: 8px;
   background-color: white;
 }
 .bar-grey{
-  width: 70%;
-  height: 4px;
+  width: 100%;
+  height: 6px;
   border-radius: 8px;
-  background-color: gray;
-
+  background-color: #a0a0a0;
+}
+.trak-bar{
+  width: 100%;
+  opacity: 0.6;
+}
+.volume-box .trak-bar{
+  width: 30%;
+  opacity: 0.6;
+}
+.trak-bar:hover{
+  opacity: 1;
 }
 .volume-box .bar-white{
-  width: 8%;
+  width: 50%;
 }
 .volume-box .bar-grey{
-  width: 15%;
   margin-right: 10px;
 }
 .volume-box i{
   color: white;
+  opacity: 0.6;
   margin-right: 15px;
+}
+.volume-box i:hover{
+  opacity: 1;
 }
