@@ -1,8 +1,12 @@
 /* side bar */
+.sidebar-s{
+  display: none;
+}
 .side-bar{
   height: 100%;
   width: 180px;
   background-color: black;
+  z-index: 90;
 }
 .side-bar span{
   font-size: 13px;
@@ -23,10 +27,12 @@
 .search{
   opacity: 0.6;
 }
+
 .home:hover,
 .library:hover,
 .search:hover{
   opacity: 1;
+  border-left: solid 4px #adff2f;
 }
 .home img,
 .library img,
@@ -35,9 +41,6 @@
   margin-right: 8px;
 }
 
-.home{
-  border-left: solid 4px #adff2f;
-}
 .home span{
   color: white;
   font-weight: 500;

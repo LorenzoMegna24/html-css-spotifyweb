@@ -1,9 +1,86 @@
-@media screen and (max-width 425px) {
-  
+
+@media screen and (max-width: 768px) {
+  .main{
+    width: 100%;
+  }
+  .card{
+    flex-basis: calc(100% / 4 - 3%);
+  }
+  .played-card-box{
+    justify-content: flex-start;
+    gap: 3%;
+  }
+  .volume-box{
+    flex-basis: 20%;
+  }
+  .song-bar span,
+  .fa-volume-high,
+  .volume-box .trak-bar,
+  .fa-repeat,
+  .fa-shuffle{
+    display: none;
+  }
+  .info-box div:last-child{
+    flex-direction: column;
+  }
+  .info-box i{
+    margin-bottom: 10px;
+  }
+  .menu-main span{
+    flex-basis: calc(100% / 4);
+  }  
+  .side-bar{
+    overflow: auto;
+  }
+
 }
-@media screen and (max-width 480px) {
-  
+@media screen and (max-width: 480px) {
+  .main{
+    width: 100%;
+  }
+  .card{
+    flex-basis: calc(100% / 2 - 1%);
+  }
+  .played-card-box{
+    justify-content: space-between;
+    gap: 1%;    
+  }
+
 }
-@media screen and (max-width 768px) {
+@media screen and (max-width: 320px) {
+  .info-box div:last-child,
+  .info-box span{
+    display: none;
+  }
+  .info-box{
+    flex-direction: column;
+  }
+  .side-bar{
+    display: none;
+  }
+  .sidebar-s{
+    display: inline;
+    background-color: black;
+    height: 100%;
+    z-index: 90;
+  }
+  .sidebar-s-box{
+    height: 100%;
+  }
+  .sidebar-s img{
+  height: 40px;
+  margin: 10px 5px 20px 5px;
+  }
+  .side-s-bottom{
+    justify-content: flex-end;
+    height: 100%;
+  }
+  .side-s-bottom img:last-child{
+    background-color: #a0a0a0;
+    border-radius: 50%;  
+  }
+  .btn-upgrade{
+    font-size: 10px;
+  }
   
 }
