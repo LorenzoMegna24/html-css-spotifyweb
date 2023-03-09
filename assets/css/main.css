@@ -110,6 +110,6 @@
   font-size: 50px;
   z-index: 10;
 }
-img:hover i{
+.card-top img:hover .fa-circle-play{
   display: inline;
 }
