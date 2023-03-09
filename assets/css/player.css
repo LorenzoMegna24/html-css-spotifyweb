@@ -15,6 +15,7 @@
 .info-box img{
   height: 100%;
   margin-right: 15px;
+  margin-left: 10px;
 }
 .info-box span{
   margin-bottom: 0;
@@ -24,4 +25,48 @@
 }
 .info-box .fa-heart{
   margin: 0 10px 0 40px;
+}
+.footer-sb{
+  margin-bottom: 10px;
+}
+.player-box i{
+  color: white;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+.player-box i:nth-child(3){
+  font-size: 30px;
+  margin-top: 17px;
+}
+.song-bar{
+  color: white;
+  width: 100%;
+}
+.song-bar span{
+  margin: 0 30px;
+  font-size: 13px;
+}
+.bar-white{
+  width: 10%;
+  height: 4px;
+  border-radius: 8px;
+  background-color: white;
+}
+.bar-grey{
+  width: 70%;
+  height: 4px;
+  border-radius: 8px;
+  background-color: gray;
+
+}
+.volume-box .bar-white{
+  width: 8%;
+}
+.volume-box .bar-grey{
+  width: 15%;
+  margin-right: 10px;
+}
+.volume-box i{
+  color: white;
+  margin-right: 15px;
 }

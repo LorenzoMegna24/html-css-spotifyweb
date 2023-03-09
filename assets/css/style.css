@@ -18,6 +18,12 @@ body{
 .space-between{
   justify-content: space-between;
 }
+.space-around{
+  justify-content: space-around;
+}
+.justify-end{
+  justify-content: flex-end;
+}
 .column{
   flex-direction: column;
 }
